@@ -72,6 +72,13 @@ const Navigation = React.forwardRef((props, ref) => {
             >
               About
             </NavLink>
+          )}{about.show && (
+            <NavLink
+              className="nav-item lead"
+              href={ "https://www.credly.com/users/sai-hemanth-talluri.20988ae2"}
+            >
+              My certification
+            </NavLink>
           )}
           {skills.show && (
             <NavLink
